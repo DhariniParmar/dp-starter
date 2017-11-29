@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.3
+-- version 4.7.2
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Nov 22, 2017 at 01:43 AM
+-- Generation Time: Nov 29, 2017 at 01:05 AM
 -- Server version: 5.6.35
--- PHP Version: 7.0.22
+-- PHP Version: 7.0.20
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -296,23 +296,19 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (107, 'widget_tag_cloud', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (108, 'widget_nav_menu', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (109, 'widget_custom_html', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
-(110, 'cron', 'a:4:{i:1511311264;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1511311286;a:2:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:25:\"delete_expired_transients\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1577898018;a:1:{s:19:\"publish_future_post\";a:1:{s:32:\"53e45760b4285163a94322f2b432f7d3\";a:2:{s:8:\"schedule\";b:0;s:4:\"args\";a:1:{i:0;i:1153;}}}}s:7:\"version\";i:2;}', 'yes'),
+(110, 'cron', 'a:5:{i:1511915008;a:1:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:2:{s:8:\"schedule\";b:0;s:4:\"args\";a:0:{}}}}i:1511916064;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1511916086;a:2:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:25:\"delete_expired_transients\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1577898018;a:1:{s:19:\"publish_future_post\";a:1:{s:32:\"53e45760b4285163a94322f2b432f7d3\";a:2:{s:8:\"schedule\";b:0;s:4:\"args\";a:1:{i:0;i:1153;}}}}s:7:\"version\";i:2;}', 'yes'),
 (111, 'theme_mods_twentyseventeen', 'a:2:{s:18:\"custom_css_post_id\";i:-1;s:16:\"sidebars_widgets\";a:2:{s:4:\"time\";i:1511138507;s:4:\"data\";a:4:{s:19:\"wp_inactive_widgets\";a:0:{}s:9:\"sidebar-1\";a:6:{i:0;s:8:\"search-2\";i:1;s:14:\"recent-posts-2\";i:2;s:17:\"recent-comments-2\";i:3;s:10:\"archives-2\";i:4;s:12:\"categories-2\";i:5;s:6:\"meta-2\";}s:9:\"sidebar-2\";a:0:{}s:9:\"sidebar-3\";a:0:{}}}}', 'yes'),
-(121, '_site_transient_timeout_browser_c16a69dc6cdbaa7f191ce46667ef720c', '1511743286', 'no'),
-(122, '_site_transient_browser_c16a69dc6cdbaa7f191ce46667ef720c', 'a:10:{s:4:\"name\";s:6:\"Chrome\";s:7:\"version\";s:12:\"62.0.3202.89\";s:8:\"platform\";s:9:\"Macintosh\";s:10:\"update_url\";s:29:\"https://www.google.com/chrome\";s:7:\"img_src\";s:43:\"http://s.w.org/images/browsers/chrome.png?1\";s:11:\"img_src_ssl\";s:44:\"https://s.w.org/images/browsers/chrome.png?1\";s:15:\"current_version\";s:2:\"18\";s:7:\"upgrade\";b:0;s:8:\"insecure\";b:0;s:6:\"mobile\";b:0;}', 'no'),
 (130, 'can_compress_scripts', '1', 'no'),
 (137, 'current_theme', 'dp-starter', 'yes'),
 (138, 'theme_mods_dp-starter', 'a:3:{i:0;b:0;s:18:\"nav_menu_locations\";a:0:{}s:18:\"custom_css_post_id\";i:-1;}', 'yes'),
 (139, 'theme_switched', '', 'yes'),
-(140, '_site_transient_timeout_popular_importers_55c602835f34c15561eddb748dff8117', '1511312441', 'no'),
-(141, '_site_transient_popular_importers_55c602835f34c15561eddb748dff8117', 'a:2:{s:9:\"importers\";a:8:{s:7:\"blogger\";a:4:{s:4:\"name\";s:7:\"Blogger\";s:11:\"description\";s:54:\"Import posts, comments, and users from a Blogger blog.\";s:11:\"plugin-slug\";s:16:\"blogger-importer\";s:11:\"importer-id\";s:7:\"blogger\";}s:9:\"wpcat2tag\";a:4:{s:4:\"name\";s:29:\"Categories and Tags Converter\";s:11:\"description\";s:71:\"Convert existing categories to tags or tags to categories, selectively.\";s:11:\"plugin-slug\";s:18:\"wpcat2tag-importer\";s:11:\"importer-id\";s:10:\"wp-cat2tag\";}s:11:\"livejournal\";a:4:{s:4:\"name\";s:11:\"LiveJournal\";s:11:\"description\";s:46:\"Import posts from LiveJournal using their API.\";s:11:\"plugin-slug\";s:20:\"livejournal-importer\";s:11:\"importer-id\";s:11:\"livejournal\";}s:11:\"movabletype\";a:4:{s:4:\"name\";s:24:\"Movable Type and TypePad\";s:11:\"description\";s:62:\"Import posts and comments from a Movable Type or TypePad blog.\";s:11:\"plugin-slug\";s:20:\"movabletype-importer\";s:11:\"importer-id\";s:2:\"mt\";}s:4:\"opml\";a:4:{s:4:\"name\";s:8:\"Blogroll\";s:11:\"description\";s:28:\"Import links in OPML format.\";s:11:\"plugin-slug\";s:13:\"opml-importer\";s:11:\"importer-id\";s:4:\"opml\";}s:3:\"rss\";a:4:{s:4:\"name\";s:3:\"RSS\";s:11:\"description\";s:30:\"Import posts from an RSS feed.\";s:11:\"plugin-slug\";s:12:\"rss-importer\";s:11:\"importer-id\";s:3:\"rss\";}s:6:\"tumblr\";a:4:{s:4:\"name\";s:6:\"Tumblr\";s:11:\"description\";s:53:\"Import posts &amp; media from Tumblr using their API.\";s:11:\"plugin-slug\";s:15:\"tumblr-importer\";s:11:\"importer-id\";s:6:\"tumblr\";}s:9:\"wordpress\";a:4:{s:4:\"name\";s:9:\"WordPress\";s:11:\"description\";s:96:\"Import posts, pages, comments, custom fields, categories, and tags from a WordPress export file.\";s:11:\"plugin-slug\";s:18:\"wordpress-importer\";s:11:\"importer-id\";s:9:\"wordpress\";}}s:10:\"translated\";b:0;}', 'no'),
 (146, 'recently_activated', 'a:1:{i:0;b:0;}', 'yes'),
 (148, 'category_children', 'a:6:{i:2;a:1:{i:0;i:46;}i:35;a:1:{i:0;i:57;}i:57;a:1:{i:0;i:58;}i:36;a:5:{i:0;i:59;i:1;i:60;i:2;i:61;i:3;i:62;i:4;i:63;}i:24;a:1:{i:0;i:64;}i:61;a:1:{i:0;i:65;}}', 'yes'),
-(158, '_site_transient_timeout_theme_roots', '1511312199', 'no'),
-(159, '_site_transient_theme_roots', 'a:5:{s:11:\"dp-starter \";s:7:\"/themes\";s:8:\"gulp-dev\";s:7:\"/themes\";s:13:\"twentyfifteen\";s:7:\"/themes\";s:15:\"twentyseventeen\";s:7:\"/themes\";s:13:\"twentysixteen\";s:7:\"/themes\";}', 'no'),
-(160, '_site_transient_update_core', 'O:8:\"stdClass\":4:{s:7:\"updates\";a:1:{i:0;O:8:\"stdClass\":10:{s:8:\"response\";s:6:\"latest\";s:8:\"download\";s:63:\"https://downloads.wordpress.org/release/en_CA/wordpress-4.9.zip\";s:6:\"locale\";s:5:\"en_CA\";s:8:\"packages\";O:8:\"stdClass\":5:{s:4:\"full\";s:63:\"https://downloads.wordpress.org/release/en_CA/wordpress-4.9.zip\";s:10:\"no_content\";b:0;s:11:\"new_bundled\";b:0;s:7:\"partial\";b:0;s:8:\"rollback\";b:0;}s:7:\"current\";s:3:\"4.9\";s:7:\"version\";s:3:\"4.9\";s:11:\"php_version\";s:5:\"5.2.4\";s:13:\"mysql_version\";s:3:\"5.0\";s:11:\"new_bundled\";s:3:\"4.7\";s:15:\"partial_version\";s:0:\"\";}}s:12:\"last_checked\";i:1511310402;s:15:\"version_checked\";s:3:\"4.9\";s:12:\"translations\";a:0:{}}', 'no'),
-(161, '_site_transient_update_themes', 'O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1511310404;s:7:\"checked\";a:4:{s:11:\"dp-starter \";s:5:\"1.0.0\";s:13:\"twentyfifteen\";s:3:\"1.9\";s:15:\"twentyseventeen\";s:3:\"1.4\";s:13:\"twentysixteen\";s:3:\"1.4\";}s:8:\"response\";a:0:{}s:12:\"translations\";a:1:{i:0;a:7:{s:4:\"type\";s:5:\"theme\";s:4:\"slug\";s:13:\"twentyfifteen\";s:8:\"language\";s:5:\"en_CA\";s:7:\"version\";s:3:\"1.9\";s:7:\"updated\";s:19:\"2017-11-20 18:43:03\";s:7:\"package\";s:77:\"https://downloads.wordpress.org/translation/theme/twentyfifteen/1.9/en_CA.zip\";s:10:\"autoupdate\";b:1;}}}', 'no'),
-(162, '_site_transient_update_plugins', 'O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1511310402;s:8:\"response\";a:0:{}s:12:\"translations\";a:1:{i:0;a:7:{s:4:\"type\";s:6:\"plugin\";s:4:\"slug\";s:18:\"wordpress-importer\";s:8:\"language\";s:5:\"en_CA\";s:7:\"version\";s:5:\"0.6.3\";s:7:\"updated\";s:19:\"2015-08-02 11:22:12\";s:7:\"package\";s:85:\"https://downloads.wordpress.org/translation/plugin/wordpress-importer/0.6.3/en_CA.zip\";s:10:\"autoupdate\";b:1;}}s:9:\"no_update\";a:2:{s:19:\"akismet/akismet.php\";O:8:\"stdClass\":9:{s:2:\"id\";s:21:\"w.org/plugins/akismet\";s:4:\"slug\";s:7:\"akismet\";s:6:\"plugin\";s:19:\"akismet/akismet.php\";s:11:\"new_version\";s:5:\"4.0.1\";s:3:\"url\";s:38:\"https://wordpress.org/plugins/akismet/\";s:7:\"package\";s:56:\"https://downloads.wordpress.org/plugin/akismet.4.0.1.zip\";s:5:\"icons\";a:3:{s:2:\"1x\";s:59:\"https://ps.w.org/akismet/assets/icon-128x128.png?rev=969272\";s:2:\"2x\";s:59:\"https://ps.w.org/akismet/assets/icon-256x256.png?rev=969272\";s:7:\"default\";s:59:\"https://ps.w.org/akismet/assets/icon-256x256.png?rev=969272\";}s:7:\"banners\";a:2:{s:2:\"1x\";s:61:\"https://ps.w.org/akismet/assets/banner-772x250.jpg?rev=479904\";s:7:\"default\";s:61:\"https://ps.w.org/akismet/assets/banner-772x250.jpg?rev=479904\";}s:11:\"banners_rtl\";a:0:{}}s:41:\"wordpress-importer/wordpress-importer.php\";O:8:\"stdClass\":9:{s:2:\"id\";s:32:\"w.org/plugins/wordpress-importer\";s:4:\"slug\";s:18:\"wordpress-importer\";s:6:\"plugin\";s:41:\"wordpress-importer/wordpress-importer.php\";s:11:\"new_version\";s:5:\"0.6.3\";s:3:\"url\";s:49:\"https://wordpress.org/plugins/wordpress-importer/\";s:7:\"package\";s:67:\"https://downloads.wordpress.org/plugin/wordpress-importer.0.6.3.zip\";s:5:\"icons\";a:0:{}s:7:\"banners\";a:2:{s:2:\"1x\";s:72:\"https://ps.w.org/wordpress-importer/assets/banner-772x250.png?rev=547654\";s:7:\"default\";s:72:\"https://ps.w.org/wordpress-importer/assets/banner-772x250.png?rev=547654\";}s:11:\"banners_rtl\";a:0:{}}}}', 'no');
+(165, '_site_transient_timeout_theme_roots', '1511913208', 'no'),
+(166, '_site_transient_theme_roots', 'a:3:{s:11:\"dp-starter \";s:7:\"/themes\";s:8:\"gulp-dev\";s:7:\"/themes\";s:15:\"twentyseventeen\";s:7:\"/themes\";}', 'no'),
+(167, '_site_transient_update_core', 'O:8:\"stdClass\":4:{s:7:\"updates\";a:1:{i:0;O:8:\"stdClass\":10:{s:8:\"response\";s:6:\"latest\";s:8:\"download\";s:63:\"https://downloads.wordpress.org/release/en_CA/wordpress-4.9.zip\";s:6:\"locale\";s:5:\"en_CA\";s:8:\"packages\";O:8:\"stdClass\":5:{s:4:\"full\";s:63:\"https://downloads.wordpress.org/release/en_CA/wordpress-4.9.zip\";s:10:\"no_content\";b:0;s:11:\"new_bundled\";b:0;s:7:\"partial\";b:0;s:8:\"rollback\";b:0;}s:7:\"current\";s:3:\"4.9\";s:7:\"version\";s:3:\"4.9\";s:11:\"php_version\";s:5:\"5.2.4\";s:13:\"mysql_version\";s:3:\"5.0\";s:11:\"new_bundled\";s:3:\"4.7\";s:15:\"partial_version\";s:0:\"\";}}s:12:\"last_checked\";i:1511911409;s:15:\"version_checked\";s:3:\"4.9\";s:12:\"translations\";a:1:{i:0;a:7:{s:4:\"type\";s:4:\"core\";s:4:\"slug\";s:7:\"default\";s:8:\"language\";s:5:\"en_CA\";s:7:\"version\";s:3:\"4.9\";s:7:\"updated\";s:19:\"2017-11-23 18:53:44\";s:7:\"package\";s:62:\"https://downloads.wordpress.org/translation/core/4.9/en_CA.zip\";s:10:\"autoupdate\";b:1;}}}', 'no'),
+(168, '_site_transient_update_themes', 'O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1511911410;s:7:\"checked\";a:2:{s:11:\"dp-starter \";s:5:\"1.0.0\";s:15:\"twentyseventeen\";s:3:\"1.4\";}s:8:\"response\";a:0:{}s:12:\"translations\";a:0:{}}', 'no'),
+(169, '_site_transient_update_plugins', 'O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1511911410;s:8:\"response\";a:0:{}s:12:\"translations\";a:1:{i:0;a:7:{s:4:\"type\";s:6:\"plugin\";s:4:\"slug\";s:18:\"wordpress-importer\";s:8:\"language\";s:5:\"en_CA\";s:7:\"version\";s:5:\"0.6.3\";s:7:\"updated\";s:19:\"2015-08-02 11:22:12\";s:7:\"package\";s:85:\"https://downloads.wordpress.org/translation/plugin/wordpress-importer/0.6.3/en_CA.zip\";s:10:\"autoupdate\";b:1;}}s:9:\"no_update\";a:2:{s:19:\"akismet/akismet.php\";O:8:\"stdClass\":9:{s:2:\"id\";s:21:\"w.org/plugins/akismet\";s:4:\"slug\";s:7:\"akismet\";s:6:\"plugin\";s:19:\"akismet/akismet.php\";s:11:\"new_version\";s:5:\"4.0.1\";s:3:\"url\";s:38:\"https://wordpress.org/plugins/akismet/\";s:7:\"package\";s:56:\"https://downloads.wordpress.org/plugin/akismet.4.0.1.zip\";s:5:\"icons\";a:3:{s:2:\"1x\";s:59:\"https://ps.w.org/akismet/assets/icon-128x128.png?rev=969272\";s:2:\"2x\";s:59:\"https://ps.w.org/akismet/assets/icon-256x256.png?rev=969272\";s:7:\"default\";s:59:\"https://ps.w.org/akismet/assets/icon-256x256.png?rev=969272\";}s:7:\"banners\";a:2:{s:2:\"1x\";s:61:\"https://ps.w.org/akismet/assets/banner-772x250.jpg?rev=479904\";s:7:\"default\";s:61:\"https://ps.w.org/akismet/assets/banner-772x250.jpg?rev=479904\";}s:11:\"banners_rtl\";a:0:{}}s:41:\"wordpress-importer/wordpress-importer.php\";O:8:\"stdClass\":9:{s:2:\"id\";s:32:\"w.org/plugins/wordpress-importer\";s:4:\"slug\";s:18:\"wordpress-importer\";s:6:\"plugin\";s:41:\"wordpress-importer/wordpress-importer.php\";s:11:\"new_version\";s:5:\"0.6.3\";s:3:\"url\";s:49:\"https://wordpress.org/plugins/wordpress-importer/\";s:7:\"package\";s:67:\"https://downloads.wordpress.org/plugin/wordpress-importer.0.6.3.zip\";s:5:\"icons\";a:0:{}s:7:\"banners\";a:2:{s:2:\"1x\";s:72:\"https://ps.w.org/wordpress-importer/assets/banner-772x250.png?rev=547654\";s:7:\"default\";s:72:\"https://ps.w.org/wordpress-importer/assets/banner-772x250.png?rev=547654\";}s:11:\"banners_rtl\";a:0:{}}}}', 'no');
 
 -- --------------------------------------------------------
 
@@ -902,227 +898,6 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_termmeta`
---
-
-CREATE TABLE `wp_termmeta` (
-  `meta_id` bigint(20) UNSIGNED NOT NULL,
-  `term_id` bigint(20) UNSIGNED NOT NULL DEFAULT '0',
-  `meta_key` varchar(255) COLLATE utf8mb4_unicode_520_ci DEFAULT NULL,
-  `meta_value` longtext COLLATE utf8mb4_unicode_520_ci
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `wp_terms`
---
-
-CREATE TABLE `wp_terms` (
-  `term_id` bigint(20) UNSIGNED NOT NULL,
-  `name` varchar(200) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',
-  `slug` varchar(200) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',
-  `term_group` bigint(10) NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
-
---
--- Dumping data for table `wp_terms`
---
-
-INSERT INTO `wp_terms` (`term_id`, `name`, `slug`, `term_group`) VALUES
-(1, 'Uncategorised', 'uncategorized', 0),
-(2, 'aciform', 'aciform', 0),
-(3, 'antiquarianism', 'antiquarianism', 0),
-(4, 'arrangement', 'arrangement', 0),
-(5, 'asmodeus', 'asmodeus', 0),
-(6, 'Blogroll', 'blogroll', 0),
-(7, 'broder', 'broder', 0),
-(8, 'buying', 'buying', 0),
-(9, 'Cat A', 'cat-a', 0),
-(10, 'Cat B', 'cat-b', 0),
-(11, 'Cat C', 'cat-c', 0),
-(12, 'championship', 'championship', 0),
-(13, 'chastening', 'chastening', 0),
-(14, 'clerkship', 'clerkship', 0),
-(15, 'disinclination', 'disinclination', 0),
-(16, 'disinfection', 'disinfection', 0),
-(17, 'dispatch', 'dispatch', 0),
-(18, 'echappee', 'echappee', 0),
-(19, 'Edge Case', 'edge-case-2', 0),
-(20, 'enphagy', 'enphagy', 0),
-(21, 'equipollent', 'equipollent', 0),
-(22, 'fatuity', 'fatuity', 0),
-(23, 'Foo A', 'foo-a', 0),
-(24, 'Foo Parent', 'foo-parent', 0),
-(25, 'gaberlunzie', 'gaberlunzie', 0),
-(26, 'illtempered', 'illtempered', 0),
-(27, 'insubordination', 'insubordination', 0),
-(28, 'lender', 'lender', 0),
-(29, 'Markup', 'markup', 0),
-(30, 'Media', 'media-2', 0),
-(31, 'monosyllable', 'monosyllable', 0),
-(32, 'packthread', 'packthread', 0),
-(33, 'palter', 'palter', 0),
-(34, 'papilionaceous', 'papilionaceous', 0),
-(35, 'Parent', 'parent', 0),
-(36, 'Parent Category', 'parent-category', 0),
-(37, 'personable', 'personable', 0),
-(38, 'Post Formats', 'post-formats', 0),
-(39, 'propylaeum', 'propylaeum', 0),
-(40, 'pustule', 'pustule', 0),
-(41, 'quartern', 'quartern', 0),
-(42, 'scholarship', 'scholarship', 0),
-(43, 'selfconvicted', 'selfconvicted', 0),
-(44, 'showshoe', 'showshoe', 0),
-(45, 'sloyd', 'sloyd', 0),
-(46, 'sub', 'sub', 0),
-(47, 'sublunary', 'sublunary', 0),
-(48, 'tamtam', 'tamtam', 0),
-(49, 'Template', 'template-2', 0),
-(50, 'Unpublished', 'unpublished', 0),
-(51, 'weakhearted', 'weakhearted', 0),
-(52, 'ween', 'ween', 0),
-(53, 'wellhead', 'wellhead', 0),
-(54, 'wellintentioned', 'wellintentioned', 0),
-(55, 'whetstone', 'whetstone', 0),
-(56, 'years', 'years', 0),
-(57, 'Child 1', 'child-1', 0),
-(58, 'Child 2', 'child-2', 0),
-(59, 'Child Category 01', 'child-category-01', 0),
-(60, 'Child Category 02', 'child-category-02', 0),
-(61, 'Child Category 03', 'child-category-03', 0),
-(62, 'Child Category 04', 'child-category-04', 0),
-(63, 'Child Category 05', 'child-category-05', 0),
-(64, 'Foo A', 'foo-a-foo-parent', 0),
-(65, 'Grandchild Category', 'grandchild-category', 0),
-(66, '8BIT', '8bit', 0),
-(67, 'alignment', 'alignment-2', 0),
-(68, 'Articles', 'articles', 0),
-(69, 'aside', 'aside', 0),
-(70, 'audio', 'audio', 0),
-(71, 'captions', 'captions-2', 0),
-(72, 'categories', 'categories', 0),
-(73, 'chat', 'chat', 0),
-(74, 'chattels', 'chattels', 0),
-(75, 'cienaga', 'cienaga', 0),
-(76, 'claycold', 'claycold', 0),
-(77, 'Codex', 'codex', 0),
-(78, 'comments', 'comments-2', 0),
-(79, 'content', 'content-2', 0),
-(80, 'crushing', 'crushing', 0),
-(81, 'css', 'css', 0),
-(82, 'depo', 'depo', 0),
-(83, 'dinarchy', 'dinarchy', 0),
-(84, 'doolie', 'doolie', 0),
-(85, 'dowork', 'dowork', 0),
-(86, 'edge case', 'edge-case', 0),
-(87, 'embeds', 'embeds-2', 0),
-(88, 'energumen', 'energumen', 0),
-(89, 'ephialtes', 'ephialtes', 0),
-(90, 'eudiometer', 'eudiometer', 0),
-(91, 'excerpt', 'excerpt-2', 0),
-(92, 'Fail', 'fail', 0),
-(93, 'featured image', 'featured-image', 0),
-(94, 'figuriste', 'figuriste', 0),
-(95, 'filler', 'filler', 0),
-(96, 'formatting', 'formatting-2', 0),
-(97, 'FTW', 'ftw', 0),
-(98, 'Fun', 'fun', 0),
-(99, 'gallery', 'gallery', 0),
-(100, 'goes here', 'goes-here', 0),
-(101, 'habergeon', 'habergeon', 0),
-(102, 'hapless', 'hapless', 0),
-(103, 'hartshorn', 'hartshorn', 0),
-(104, 'hostility impregnability', 'hostility-impregnability', 0),
-(105, 'html', 'html', 0),
-(106, 'image', 'image', 0),
-(107, 'impropriation', 'impropriation', 0),
-(108, 'is', 'is', 0),
-(109, 'jetpack', 'jetpack-2', 0),
-(110, 'knave', 'knave', 0),
-(111, 'layout', 'layout', 0),
-(112, 'link', 'link', 0),
-(113, 'lists', 'lists-2', 0),
-(114, 'lorem', 'lorem', 0),
-(115, 'Love', 'love', 0),
-(116, 'markup', 'markup-2', 0),
-(117, 'media', 'media', 0),
-(118, 'misinformed', 'misinformed', 0),
-(119, 'moil', 'moil', 0),
-(120, 'more', 'more', 0),
-(121, 'mornful', 'mornful', 0),
-(122, 'Mothership', 'mothership', 0),
-(123, 'Must Read', 'mustread', 0),
-(124, 'Nailed It', 'nailedit', 0),
-(125, 'outlaw', 'outlaw', 0),
-(126, 'pagination', 'pagination', 0),
-(127, 'pamphjlet', 'pamphjlet', 0),
-(128, 'password', 'password-2', 0),
-(129, 'Pictures', 'pictures', 0),
-(130, 'pingbacks', 'pingbacks-2', 0),
-(131, 'pneumatics', 'pneumatics', 0),
-(132, 'portly portreeve', 'portly-portreeve', 0),
-(133, 'post', 'post', 0),
-(134, 'Post Formats', 'post-formats', 0),
-(135, 'precipitancy', 'precipitancy', 0),
-(136, 'privation', 'privation', 0),
-(137, 'programme', 'programme', 0),
-(138, 'psychological', 'psychological', 0),
-(139, 'puncher', 'puncher', 0),
-(140, 'quote', 'quote', 0),
-(141, 'ramose', 'ramose', 0),
-(142, 'read more', 'read-more', 0),
-(143, 'readability', 'readability', 0),
-(144, 'renegade', 'renegade', 0),
-(145, 'retrocede', 'retrocede', 0),
-(146, 'shortcode', 'shortcode', 0),
-(147, 'stagnation unhorsed', 'stagnation-unhorsed', 0),
-(148, 'standard', 'standard-2', 0),
-(149, 'status', 'status', 0),
-(150, 'sticky', 'sticky-2', 0),
-(151, 'Success', 'success', 0),
-(152, 'Swagger', 'swagger', 0),
-(153, 'Tag A', 'tag-a', 0),
-(154, 'Tag B', 'tag-b', 0),
-(155, 'Tag C', 'tag-c', 0),
-(156, 'tag1', 'tag1', 0),
-(157, 'tag2', 'tag2', 0),
-(158, 'tag3', 'tag3', 0),
-(159, 'Tags', 'tags', 0),
-(160, 'template', 'template', 0),
-(161, 'text', 'text', 0),
-(162, 'the man', 'the-man', 0),
-(163, 'thunderheaded', 'thunderheaded', 0),
-(164, 'tiled', 'tiled', 0),
-(165, 'title', 'title', 0),
-(166, 'trackbacks', 'trackbacks-2', 0),
-(167, 'twitter', 'twitter-2', 0),
-(168, 'unculpable', 'unculpable', 0),
-(169, 'Unseen', 'unseen', 0),
-(170, 'video', 'video', 0),
-(171, 'videopress', 'videopress', 0),
-(172, 'withered brandnew', 'withered-brandnew', 0),
-(173, 'WordPress', 'wordpress', 0),
-(174, 'wordpress.tv', 'wordpress-tv', 0),
-(175, 'xanthopsia', 'xanthopsia', 0),
-(176, 'All Pages', 'all-pages', 0),
-(177, 'All Pages Flat', 'all-pages-flat', 0),
-(178, 'Empty Menu', 'empty-menu', 0),
-(179, 'Short', 'short', 0),
-(180, 'Testing Menu', 'testing-menu', 0),
-(181, 'Gallery', 'post-format-gallery', 0),
-(182, 'Aside', 'post-format-aside', 0),
-(183, 'Chat', 'post-format-chat', 0),
-(184, 'Link', 'post-format-link', 0),
-(185, 'Image', 'post-format-image', 0),
-(186, 'Quote', 'post-format-quote', 0),
-(187, 'Status', 'post-format-status', 0),
-(188, 'Video', 'post-format-video', 0),
-(189, 'Audio', 'post-format-audio', 0);
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `wp_term_relationships`
 --
 
@@ -1645,6 +1420,227 @@ INSERT INTO `wp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `desc
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `wp_termmeta`
+--
+
+CREATE TABLE `wp_termmeta` (
+  `meta_id` bigint(20) UNSIGNED NOT NULL,
+  `term_id` bigint(20) UNSIGNED NOT NULL DEFAULT '0',
+  `meta_key` varchar(255) COLLATE utf8mb4_unicode_520_ci DEFAULT NULL,
+  `meta_value` longtext COLLATE utf8mb4_unicode_520_ci
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `wp_terms`
+--
+
+CREATE TABLE `wp_terms` (
+  `term_id` bigint(20) UNSIGNED NOT NULL,
+  `name` varchar(200) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',
+  `slug` varchar(200) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',
+  `term_group` bigint(10) NOT NULL DEFAULT '0'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+
+--
+-- Dumping data for table `wp_terms`
+--
+
+INSERT INTO `wp_terms` (`term_id`, `name`, `slug`, `term_group`) VALUES
+(1, 'Uncategorised', 'uncategorized', 0),
+(2, 'aciform', 'aciform', 0),
+(3, 'antiquarianism', 'antiquarianism', 0),
+(4, 'arrangement', 'arrangement', 0),
+(5, 'asmodeus', 'asmodeus', 0),
+(6, 'Blogroll', 'blogroll', 0),
+(7, 'broder', 'broder', 0),
+(8, 'buying', 'buying', 0),
+(9, 'Cat A', 'cat-a', 0),
+(10, 'Cat B', 'cat-b', 0),
+(11, 'Cat C', 'cat-c', 0),
+(12, 'championship', 'championship', 0),
+(13, 'chastening', 'chastening', 0),
+(14, 'clerkship', 'clerkship', 0),
+(15, 'disinclination', 'disinclination', 0),
+(16, 'disinfection', 'disinfection', 0),
+(17, 'dispatch', 'dispatch', 0),
+(18, 'echappee', 'echappee', 0),
+(19, 'Edge Case', 'edge-case-2', 0),
+(20, 'enphagy', 'enphagy', 0),
+(21, 'equipollent', 'equipollent', 0),
+(22, 'fatuity', 'fatuity', 0),
+(23, 'Foo A', 'foo-a', 0),
+(24, 'Foo Parent', 'foo-parent', 0),
+(25, 'gaberlunzie', 'gaberlunzie', 0),
+(26, 'illtempered', 'illtempered', 0),
+(27, 'insubordination', 'insubordination', 0),
+(28, 'lender', 'lender', 0),
+(29, 'Markup', 'markup', 0),
+(30, 'Media', 'media-2', 0),
+(31, 'monosyllable', 'monosyllable', 0),
+(32, 'packthread', 'packthread', 0),
+(33, 'palter', 'palter', 0),
+(34, 'papilionaceous', 'papilionaceous', 0),
+(35, 'Parent', 'parent', 0),
+(36, 'Parent Category', 'parent-category', 0),
+(37, 'personable', 'personable', 0),
+(38, 'Post Formats', 'post-formats', 0),
+(39, 'propylaeum', 'propylaeum', 0),
+(40, 'pustule', 'pustule', 0),
+(41, 'quartern', 'quartern', 0),
+(42, 'scholarship', 'scholarship', 0),
+(43, 'selfconvicted', 'selfconvicted', 0),
+(44, 'showshoe', 'showshoe', 0),
+(45, 'sloyd', 'sloyd', 0),
+(46, 'sub', 'sub', 0),
+(47, 'sublunary', 'sublunary', 0),
+(48, 'tamtam', 'tamtam', 0),
+(49, 'Template', 'template-2', 0),
+(50, 'Unpublished', 'unpublished', 0),
+(51, 'weakhearted', 'weakhearted', 0),
+(52, 'ween', 'ween', 0),
+(53, 'wellhead', 'wellhead', 0),
+(54, 'wellintentioned', 'wellintentioned', 0),
+(55, 'whetstone', 'whetstone', 0),
+(56, 'years', 'years', 0),
+(57, 'Child 1', 'child-1', 0),
+(58, 'Child 2', 'child-2', 0),
+(59, 'Child Category 01', 'child-category-01', 0),
+(60, 'Child Category 02', 'child-category-02', 0),
+(61, 'Child Category 03', 'child-category-03', 0),
+(62, 'Child Category 04', 'child-category-04', 0),
+(63, 'Child Category 05', 'child-category-05', 0),
+(64, 'Foo A', 'foo-a-foo-parent', 0),
+(65, 'Grandchild Category', 'grandchild-category', 0),
+(66, '8BIT', '8bit', 0),
+(67, 'alignment', 'alignment-2', 0),
+(68, 'Articles', 'articles', 0),
+(69, 'aside', 'aside', 0),
+(70, 'audio', 'audio', 0),
+(71, 'captions', 'captions-2', 0),
+(72, 'categories', 'categories', 0),
+(73, 'chat', 'chat', 0),
+(74, 'chattels', 'chattels', 0),
+(75, 'cienaga', 'cienaga', 0),
+(76, 'claycold', 'claycold', 0),
+(77, 'Codex', 'codex', 0),
+(78, 'comments', 'comments-2', 0),
+(79, 'content', 'content-2', 0),
+(80, 'crushing', 'crushing', 0),
+(81, 'css', 'css', 0),
+(82, 'depo', 'depo', 0),
+(83, 'dinarchy', 'dinarchy', 0),
+(84, 'doolie', 'doolie', 0),
+(85, 'dowork', 'dowork', 0),
+(86, 'edge case', 'edge-case', 0),
+(87, 'embeds', 'embeds-2', 0),
+(88, 'energumen', 'energumen', 0),
+(89, 'ephialtes', 'ephialtes', 0),
+(90, 'eudiometer', 'eudiometer', 0),
+(91, 'excerpt', 'excerpt-2', 0),
+(92, 'Fail', 'fail', 0),
+(93, 'featured image', 'featured-image', 0),
+(94, 'figuriste', 'figuriste', 0),
+(95, 'filler', 'filler', 0),
+(96, 'formatting', 'formatting-2', 0),
+(97, 'FTW', 'ftw', 0),
+(98, 'Fun', 'fun', 0),
+(99, 'gallery', 'gallery', 0),
+(100, 'goes here', 'goes-here', 0),
+(101, 'habergeon', 'habergeon', 0),
+(102, 'hapless', 'hapless', 0),
+(103, 'hartshorn', 'hartshorn', 0),
+(104, 'hostility impregnability', 'hostility-impregnability', 0),
+(105, 'html', 'html', 0),
+(106, 'image', 'image', 0),
+(107, 'impropriation', 'impropriation', 0),
+(108, 'is', 'is', 0),
+(109, 'jetpack', 'jetpack-2', 0),
+(110, 'knave', 'knave', 0),
+(111, 'layout', 'layout', 0),
+(112, 'link', 'link', 0),
+(113, 'lists', 'lists-2', 0),
+(114, 'lorem', 'lorem', 0),
+(115, 'Love', 'love', 0),
+(116, 'markup', 'markup-2', 0),
+(117, 'media', 'media', 0),
+(118, 'misinformed', 'misinformed', 0),
+(119, 'moil', 'moil', 0),
+(120, 'more', 'more', 0),
+(121, 'mornful', 'mornful', 0),
+(122, 'Mothership', 'mothership', 0),
+(123, 'Must Read', 'mustread', 0),
+(124, 'Nailed It', 'nailedit', 0),
+(125, 'outlaw', 'outlaw', 0),
+(126, 'pagination', 'pagination', 0),
+(127, 'pamphjlet', 'pamphjlet', 0),
+(128, 'password', 'password-2', 0),
+(129, 'Pictures', 'pictures', 0),
+(130, 'pingbacks', 'pingbacks-2', 0),
+(131, 'pneumatics', 'pneumatics', 0),
+(132, 'portly portreeve', 'portly-portreeve', 0),
+(133, 'post', 'post', 0),
+(134, 'Post Formats', 'post-formats', 0),
+(135, 'precipitancy', 'precipitancy', 0),
+(136, 'privation', 'privation', 0),
+(137, 'programme', 'programme', 0),
+(138, 'psychological', 'psychological', 0),
+(139, 'puncher', 'puncher', 0),
+(140, 'quote', 'quote', 0),
+(141, 'ramose', 'ramose', 0),
+(142, 'read more', 'read-more', 0),
+(143, 'readability', 'readability', 0),
+(144, 'renegade', 'renegade', 0),
+(145, 'retrocede', 'retrocede', 0),
+(146, 'shortcode', 'shortcode', 0),
+(147, 'stagnation unhorsed', 'stagnation-unhorsed', 0),
+(148, 'standard', 'standard-2', 0),
+(149, 'status', 'status', 0),
+(150, 'sticky', 'sticky-2', 0),
+(151, 'Success', 'success', 0),
+(152, 'Swagger', 'swagger', 0),
+(153, 'Tag A', 'tag-a', 0),
+(154, 'Tag B', 'tag-b', 0),
+(155, 'Tag C', 'tag-c', 0),
+(156, 'tag1', 'tag1', 0),
+(157, 'tag2', 'tag2', 0),
+(158, 'tag3', 'tag3', 0),
+(159, 'Tags', 'tags', 0),
+(160, 'template', 'template', 0),
+(161, 'text', 'text', 0),
+(162, 'the man', 'the-man', 0),
+(163, 'thunderheaded', 'thunderheaded', 0),
+(164, 'tiled', 'tiled', 0),
+(165, 'title', 'title', 0),
+(166, 'trackbacks', 'trackbacks-2', 0),
+(167, 'twitter', 'twitter-2', 0),
+(168, 'unculpable', 'unculpable', 0),
+(169, 'Unseen', 'unseen', 0),
+(170, 'video', 'video', 0),
+(171, 'videopress', 'videopress', 0),
+(172, 'withered brandnew', 'withered-brandnew', 0),
+(173, 'WordPress', 'wordpress', 0),
+(174, 'wordpress.tv', 'wordpress-tv', 0),
+(175, 'xanthopsia', 'xanthopsia', 0),
+(176, 'All Pages', 'all-pages', 0),
+(177, 'All Pages Flat', 'all-pages-flat', 0),
+(178, 'Empty Menu', 'empty-menu', 0),
+(179, 'Short', 'short', 0),
+(180, 'Testing Menu', 'testing-menu', 0),
+(181, 'Gallery', 'post-format-gallery', 0),
+(182, 'Aside', 'post-format-aside', 0),
+(183, 'Chat', 'post-format-chat', 0),
+(184, 'Link', 'post-format-link', 0),
+(185, 'Image', 'post-format-image', 0),
+(186, 'Quote', 'post-format-quote', 0),
+(187, 'Status', 'post-format-status', 0),
+(188, 'Video', 'post-format-video', 0),
+(189, 'Audio', 'post-format-audio', 0);
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `wp_usermeta`
 --
 
@@ -1823,6 +1819,21 @@ ALTER TABLE `wp_posts`
   ADD KEY `post_author` (`post_author`);
 
 --
+-- Indexes for table `wp_term_relationships`
+--
+ALTER TABLE `wp_term_relationships`
+  ADD PRIMARY KEY (`object_id`,`term_taxonomy_id`),
+  ADD KEY `term_taxonomy_id` (`term_taxonomy_id`);
+
+--
+-- Indexes for table `wp_term_taxonomy`
+--
+ALTER TABLE `wp_term_taxonomy`
+  ADD PRIMARY KEY (`term_taxonomy_id`),
+  ADD UNIQUE KEY `term_id_taxonomy` (`term_id`,`taxonomy`),
+  ADD KEY `taxonomy` (`taxonomy`);
+
+--
 -- Indexes for table `wp_termmeta`
 --
 ALTER TABLE `wp_termmeta`
@@ -1837,21 +1848,6 @@ ALTER TABLE `wp_terms`
   ADD PRIMARY KEY (`term_id`),
   ADD KEY `slug` (`slug`(191)),
   ADD KEY `name` (`name`(191));
-
---
--- Indexes for table `wp_term_relationships`
---
-ALTER TABLE `wp_term_relationships`
-  ADD PRIMARY KEY (`object_id`,`term_taxonomy_id`),
-  ADD KEY `term_taxonomy_id` (`term_taxonomy_id`);
-
---
--- Indexes for table `wp_term_taxonomy`
---
-ALTER TABLE `wp_term_taxonomy`
-  ADD PRIMARY KEY (`term_taxonomy_id`),
-  ADD UNIQUE KEY `term_id_taxonomy` (`term_id`,`taxonomy`),
-  ADD KEY `taxonomy` (`taxonomy`);
 
 --
 -- Indexes for table `wp_usermeta`
@@ -1893,7 +1889,7 @@ ALTER TABLE `wp_links`
 -- AUTO_INCREMENT for table `wp_options`
 --
 ALTER TABLE `wp_options`
-  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=163;
+  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=170;
 --
 -- AUTO_INCREMENT for table `wp_postmeta`
 --
@@ -1905,6 +1901,11 @@ ALTER TABLE `wp_postmeta`
 ALTER TABLE `wp_posts`
   MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1693;
 --
+-- AUTO_INCREMENT for table `wp_term_taxonomy`
+--
+ALTER TABLE `wp_term_taxonomy`
+  MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=190;
+--
 -- AUTO_INCREMENT for table `wp_termmeta`
 --
 ALTER TABLE `wp_termmeta`
@@ -1914,11 +1915,6 @@ ALTER TABLE `wp_termmeta`
 --
 ALTER TABLE `wp_terms`
   MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=190;
---
--- AUTO_INCREMENT for table `wp_term_taxonomy`
---
-ALTER TABLE `wp_term_taxonomy`
-  MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=190;
 --
 -- AUTO_INCREMENT for table `wp_usermeta`
 --
