@@ -23,7 +23,7 @@ get_header(); ?>
 			if ( comments_open() || get_comments_number() ) :
 				comments_template();
 			endif;
-			the_post_navigation();
+			dpstarter_post_navigation();
 
 		endwhile; // End of the loop.
 		?>

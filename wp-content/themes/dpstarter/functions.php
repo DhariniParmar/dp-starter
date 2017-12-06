@@ -188,6 +188,7 @@ function dpstarter_scripts() {
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
+	wp_enqueue_script( 'dpstarter-functions', get_template_directory_uri() . '/js/functions.js', array('jquery'), '20161201', true );
 }
 add_action( 'wp_enqueue_scripts', 'dpstarter_scripts' );
 
