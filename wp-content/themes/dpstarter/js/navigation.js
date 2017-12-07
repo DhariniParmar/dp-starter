@@ -12,18 +12,17 @@
 
 		// Add dropdown toggle that displays child menu items.
 		var dropdownToggle = $( '<button />', { 'class': 'dropdown-toggle', 'aria-expanded': false })
-			.append( dpstarterScreenReaderText.icon )
+			.append( $( '<span />', { 'class': 'dropdown-symbol', text: '+'}) )
 			.append( $( '<span />', { 'class': 'screen-reader-text', text: dpstarterScreenReaderText.expand }) );
 
 		container.find( '.menu-item-has-children > a, .page_item_has_children > a' ).after( dropdownToggle );
 
-		// Toggle buttons and submenu items with active children menu items.
-		container.find( '.current-menu-ancestor > button' ).addClass( 'toggled-on' );
-		container.find( '.current-menu-ancestor > .sub-menu' ).addClass( 'toggled-on' );
 
 		container.find( '.dropdown-toggle' ).click( function( e ) {
 			var _this = $( this ),
 				screenReaderSpan = _this.find( '.screen-reader-text' );
+				dropdownsymbol = _this.find('.dropdown-symbol');
+				dropdownsymbol.text(dropdownsymbol.text() === '-' ? '+' : '-')
 
 			e.preventDefault();
 			_this.toggleClass( 'toggled-on' );
