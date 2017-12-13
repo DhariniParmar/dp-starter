@@ -1,4 +1,4 @@
-var themename = 'dpstarter';
+var themename = 'mwstarter';
 
 var gulp = require('gulp'),
     // Prepare and optimize code etc

@@ -313,10 +313,7 @@ function wp_debug_mode() {
 	 *
 	 * @param bool $enable_debug_mode Whether to enable debug mode checks to occur. Default true.
 	 */
-	if ( ! apply_filters( 'enable_wp_debug_mode_checks', true ) ){
-		return;
-	}
-
+	
 	if ( WP_DEBUG ) {
 		error_reporting( E_ALL );
 
