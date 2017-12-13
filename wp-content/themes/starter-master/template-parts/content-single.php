@@ -20,7 +20,12 @@
 			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		endif;
 
-		 ?>
+		if ( is_active_sidebar( 'sidebar-1 ') ) : ?>
+		<div class="entry-meta">
+			<?php mw_starter_posted_on(); ?>
+		</div><!-- .entry-meta -->
+		<?php
+		endif; ?>
 	</header><!-- .entry-header -->
 
 	
@@ -64,6 +69,8 @@
 			endif; ?>
 	</section>
 
-	
+	<?php if (!is_front_page()) {
+get_sidebar();
+ } ?>
 
 </article><!-- #post-<?php the_ID(); ?> -->

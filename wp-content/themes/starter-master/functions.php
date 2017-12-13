@@ -139,7 +139,7 @@ function mw_starter_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 }
-add_action( 'widgets_init', 'mw_starter_widgets_init' );
+add_action( 'widgets_init' );
 
 /**
  * Enqueue scripts and styles.

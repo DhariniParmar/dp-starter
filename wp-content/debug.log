@@ -1,0 +1,10 @@
+[13-Dec-2017 20:56:16 UTC] PHP Warning:  Missing argument 2 for add_action(), called in /Users/student/Desktop/dp-starter/wp-content/themes/starter-master/functions.php on line 142 and defined in /Users/student/Desktop/dp-starter/wp-includes/plugin.php on line 398
+[13-Dec-2017 20:56:16 UTC] PHP Notice:  Undefined variable: function_to_add in /Users/student/Desktop/dp-starter/wp-includes/plugin.php on line 399
+[13-Dec-2017 20:56:16 UTC] PHP Notice:  Undefined offset: 0 in /Users/student/Desktop/dp-starter/wp-includes/plugin.php on line 897
+[13-Dec-2017 20:56:16 UTC] PHP Notice:  Undefined offset: 0 in /Users/student/Desktop/dp-starter/wp-includes/plugin.php on line 915
+[13-Dec-2017 20:56:16 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /Users/student/Desktop/dp-starter/wp-includes/class-wp-hook.php on line 286
+[13-Dec-2017 20:57:07 UTC] PHP Warning:  Missing argument 2 for add_action(), called in /Users/student/Desktop/dp-starter/wp-content/themes/starter-master/functions.php on line 142 and defined in /Users/student/Desktop/dp-starter/wp-includes/plugin.php on line 398
+[13-Dec-2017 20:57:07 UTC] PHP Notice:  Undefined variable: function_to_add in /Users/student/Desktop/dp-starter/wp-includes/plugin.php on line 399
+[13-Dec-2017 20:57:07 UTC] PHP Notice:  Undefined offset: 0 in /Users/student/Desktop/dp-starter/wp-includes/plugin.php on line 897
+[13-Dec-2017 20:57:07 UTC] PHP Notice:  Undefined offset: 0 in /Users/student/Desktop/dp-starter/wp-includes/plugin.php on line 915
+[13-Dec-2017 20:57:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /Users/student/Desktop/dp-starter/wp-includes/class-wp-hook.php on line 286
